@@ -49,6 +49,8 @@ def step():
 # Handle the space key
 def spaceKey(event):
     ball.go = not ball.go
+    pop.play()
+    pew1.play()
 
 # Handle the "reverse" key
 def reverseKey(event):
