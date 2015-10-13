@@ -5,7 +5,7 @@ Ryan Kynor tutorial
 from ggame import App, RectangleAsset, ImageAsset, SoundAsset
 from ggame import LineStyle, Color, Sprite, Sound
 
-myapp = App()
+myapp = App(SCREEN_WIDTH, SCREEN_HEIGHT)
 myapp.run()
 
 
