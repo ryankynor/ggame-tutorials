@@ -5,9 +5,6 @@ Ryan Kynor tutorial
 from ggame import App, RectangleAsset, ImageAsset, SoundAsset
 from ggame import LineStyle, Color, Sprite, Sound
 
-myapp = App(SCREEN_WIDTH, SCREEN_HEIGHT)
-myapp.run()
-
 
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
@@ -22,3 +19,7 @@ noline = LineStyle(0, black)
 
 bg_asset = RectangleAsset(SCREEN_WIDTH, SCREEN_HEIGHT, noline, green)
 bg = Sprite(bg_asset, (0,0))
+
+
+myapp = App(SCREEN_WIDTH, SCREEN_HEIGHT)
+myapp.run()
